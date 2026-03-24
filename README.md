@@ -8,7 +8,7 @@ I am focused on building real-world cloud architecture skills through hands-on l
 
 ## Certifications
 - AWS Certified Cloud Practitioner (CLF-C02) – March 2026  
-  [View Certificate](./aws-certified-cloud-practitioner-clf-c02.pdf)
+  [View Certificate](./certifications/aws-certified-cloud-practitioner-clf-c02.pdf)
 
 ---
 
@@ -19,30 +19,8 @@ I am focused on building real-world cloud architecture skills through hands-on l
 
 ---
 
-## Repository Structure
+## Notes Index
 
-- notes/ → Service breakdowns (EC2, S3, VPC, RDS, IAM)
-- labs/ → Hands-on projects with implementation steps + screenshots
-- training/ → Course progress and summaries
-
----
-
-## Training & Coursework
-
-- AWS Cloud Practitioner Essentials (AWS Skill Builder) — Completed  
-- AWS Certified Cloud Practitioner (CLF-C02) — Completed  
-
----
-
-## Next Steps
-
-- Build real-world AWS projects
-- Deepen architecture knowledge
-- Achieve AWS Solutions Architect Associate certification
-
-Structured notes for AWS Solutions Architect Associate (SAA). Built as a living proof-of-work repo.
-
-## Notes index
 - [Module 1 – Introduction to the Cloud](notes/module-01-intro-to-cloud.md)
 - [Module 2 – Compute in the Cloud](notes/module-02-compute-in-the-cloud.md)
 - [Module 3 – Exploring Compute Services](notes/module-03-exploring-compute-services.md)
@@ -57,8 +35,41 @@ Structured notes for AWS Solutions Architect Associate (SAA). Built as a living 
 - [Module 12 — Migrating to the AWS Cloud](notes/module-12-migrating-to-the-aws-cloud.md)
 - [Module 13 — Well-Architected Solutions](notes/module-13-well-architected-solutions.md)
 
-## How I’m using this repo
-- High-yield summaries by module
-- 5 key takeaways per module
-- “Fuzzy areas” to review
-- (Next) Flashcards + Mistakes Bank
+---
+
+## Repository Structure
+
+- notes/ → AWS service breakdowns and concepts
+- labs/ → Hands-on projects with architecture and screenshots
+- training/ → Course progress and summaries
+- certifications/ → AWS certification proof
+
+---
+
+## Training & Coursework
+
+- AWS Cloud Practitioner Essentials (AWS Skill Builder) — Completed  
+- AWS Certified Cloud Practitioner (CLF-C02) — Completed  
+
+This includes:
+- 13 modules of structured notes
+- Core AWS services (EC2, S3, IAM, VPC)
+- Security, pricing, and architecture fundamentals
+- AWS Well-Architected Framework concepts
+
+---
+
+## How I Use This Repo
+
+- High-yield summaries by module  
+- 5 key takeaways per module  
+- “Fuzzy areas” for review  
+- (Next) Flashcards + Mistakes Bank  
+
+---
+
+## Next Steps
+
+- Build real-world AWS architecture projects  
+- Implement scalable and highly available systems  
+- Achieve AWS Solutions Architect Associate certification  
