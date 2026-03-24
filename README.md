@@ -1,5 +1,5 @@
 # AWS Solutions Architect Study Notes
-
+Aspiring AWS Solutions Architect documenting hands-on labs, architecture concepts, and real-world projects.
 This repository documents my journey from AWS Certified Cloud Practitioner to AWS Solutions Architect Associate.
 
 I am focused on building real-world cloud architecture skills through hands-on labs, structured notes, and AWS best practices.
