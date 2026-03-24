@@ -1,3 +1,5 @@
+## Certifications
+- AWS Certified Cloud Practitioner (CLF-C02) – March 2026
 # AWS-SAA-Study-notes# AWS SAA Study Notes
 ## Training & Coursework
 
