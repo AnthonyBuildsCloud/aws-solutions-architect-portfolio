@@ -1,22 +1,44 @@
+# AWS Solutions Architect Study Notes
+
+This repository documents my journey from AWS Certified Cloud Practitioner to AWS Solutions Architect Associate.
+
+I am focused on building real-world cloud architecture skills through hands-on labs, structured notes, and AWS best practices.
+
+---
+
 ## Certifications
 - AWS Certified Cloud Practitioner (CLF-C02) – March 2026  
   [View Certificate](./aws-certified-cloud-practitioner-clf-c02.pdf)
-# AWS-SAA-Study-notes# AWS SAA Study Notes
+
+---
+
+## Current Focus
+- AWS Solutions Architect Associate (SAA-C03)
+- Core architecture patterns
+- Hands-on AWS projects
+
+---
+
+## Repository Structure
+
+- notes/ → Service breakdowns (EC2, S3, VPC, RDS, IAM)
+- labs/ → Hands-on projects with implementation steps + screenshots
+- training/ → Course progress and summaries
+
+---
+
 ## Training & Coursework
 
-- **AWS Cloud Practitioner Essentials** (AWS Skill Builder) — Completed  
-  - Summary: Training overview  
-  - Proof: Completion certificate (PDF)  
-  - Scope: Modules 1–13 (core services, security, pricing, migration, Well-Architected Framework)
+- AWS Cloud Practitioner Essentials (AWS Skill Builder) — Completed  
+- AWS Certified Cloud Practitioner (CLF-C02) — Completed  
 
-- **Exam Prep Plan: AWS Certified Cloud Practitioner (CLF-C02)** — In Progress  
-  - Completed:
-    - AWS Technical Essentials
-  - Focus:
-    - Core AWS services (EC2, S3, IAM, VPC)
-    - Foundational architecture and security concepts
-  - Status: Domain reviews and practice exams upcoming
+---
 
+## Next Steps
+
+- Build real-world AWS projects
+- Deepen architecture knowledge
+- Achieve AWS Solutions Architect Associate certification
 
 Structured notes for AWS Solutions Architect Associate (SAA). Built as a living proof-of-work repo.
 
