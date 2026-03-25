@@ -18,7 +18,7 @@ I am focused on building real-world cloud architecture skills through hands-on l
 - Hands-on AWS projects
 
 ---
-## Featured Project
+## Featured Projects
 
 ### Project 01 — Static Website on Amazon S3 + CloudFront
 Built and deployed a static website using Amazon S3 for storage and CloudFront for secure delivery over HTTPS.
