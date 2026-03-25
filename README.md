@@ -18,7 +18,18 @@ I am focused on building real-world cloud architecture skills through hands-on l
 - Hands-on AWS projects
 
 ---
+## Featured Project
 
+### Project 01 — Static Website on Amazon S3 + CloudFront
+Built and deployed a static website using Amazon S3 for storage and CloudFront for secure delivery over HTTPS.
+
+**What it demonstrates:**
+- Static website hosting with Amazon S3
+- Public access configuration using bucket policy
+- CloudFront distribution setup with S3 website endpoint as custom origin
+- End-to-end deployment validation
+
+[View Project 01](./labs/project-01-static-website/README.md)
 ## Notes Index
 
 - [Module 1 – Introduction to the Cloud](notes/module-01-intro-to-cloud.md)
