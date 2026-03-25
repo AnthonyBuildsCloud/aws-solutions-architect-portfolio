@@ -3,7 +3,7 @@
 
 ## Objective
 Build and deploy a static website using Amazon S3 for storage and CloudFront for secure content delivery over HTTPS.
-
+Flow: Local HTML → Amazon S3 → S3 Static Website Hosting → CloudFront
 ## Architecture
 - Local `index.html` file created and tested in browser
 - Amazon S3 bucket used to store website files
