@@ -27,10 +27,10 @@ Built and deployed a static website using Amazon S3 for storage and CloudFront f
 
 **What it demonstrates:**
 - Static website hosting with Amazon S3
-- Public access configuration using bucket policy
+- Public access configuration with bucket policies
 - CloudFront distribution setup
 - HTTPS delivery through CloudFront
-- Hands-on AWS deployment workflow
+- End-to-end AWS deployment workflow
 
 [View Project 01](./labs/project-01-static-website/README.md)
 ## Notes Index
