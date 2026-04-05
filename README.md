@@ -1,23 +1,53 @@
-# AWS Solutions Architect Study Notes
-Aspiring AWS Solutions Architect documenting hands-on labs, architecture concepts, and real-world projects.
-This repository documents my journey from AWS Certified Cloud Practitioner to AWS Solutions Architect Associate.
+# AWS Solutions Architect Portfolio & Study Notes
 
-I am focused on building real-world cloud architecture skills through hands-on labs, structured notes, and AWS best practices.
+I’m building hands-on AWS architecture skills through labs, structured notes, documented projects, and certification prep as I work toward the **AWS Certified Solutions Architect – Associate (SAA-C03)**.
+
+This repository documents my progression from **AWS Certified Cloud Practitioner (CLF-C02)** into more advanced AWS architecture concepts, hands-on projects, and portfolio-ready cloud documentation.
+
+My goal is not just to pass the certification exam, but to develop practical AWS design skills that translate into real-world cloud and AWS-focused roles.
 
 ---
 
 ## Certifications
-- AWS Certified Cloud Practitioner (CLF-C02) – March 2026  
+
+- **AWS Certified Cloud Practitioner (CLF-C02)** — March 2026  
   [View Certificate](./certifications/aws-certified-cloud-practitioner-clf-c02.pdf)
 
 ---
 
-## Current Focus
-- AWS Solutions Architect Associate (SAA-C03)
-- Core architecture patterns
-- Hands-on AWS projects
+## Completed Training
+
+- **AWS Cloud Practitioner Essentials** — AWS Skill Builder
+- **AWS Certified Cloud Practitioner Exam Prep Plan** — AWS Skill Builder
+- **AWS Certified Cloud Practitioner (CLF-C02)** — Earned March 2026
 
 ---
+
+## Current Focus
+
+- **AWS Certified Solutions Architect – Associate (SAA-C03)**
+- Core AWS architecture patterns and service tradeoffs
+- Hands-on AWS labs and portfolio projects
+- Building stronger documentation, diagrams, and architecture thinking
+- Expanding this repository into a recruiter-facing cloud portfolio
+
+---
+
+## Architecture Skills Being Built
+
+This repository is focused on developing and documenting skills in:
+
+- **Identity and access management** with IAM
+- **Compute design** with EC2, Auto Scaling, and Elastic Load Balancing
+- **Storage decisions** across S3, EBS, and EFS
+- **Networking fundamentals** with VPCs, subnets, route tables, internet gateways, NAT gateways, and security groups
+- **Content delivery and edge architecture** with CloudFront
+- **Database selection** across RDS, Aurora, and DynamoDB
+- **Security best practices** and least-privilege thinking
+- **High availability, resilience, and cost-aware architecture**
+
+---
+
 ## Featured Projects
 
 ### Project 01 — Static Website on Amazon S3 + CloudFront
@@ -33,6 +63,9 @@ Built and deployed a static website using Amazon S3 for storage and CloudFront f
 - End-to-end AWS deployment workflow
 
 [View Project 01](./labs/project-01-static-website/README.md)
+
+---
+
 ## Notes Index
 
 - [Module 1 – Introduction to the Cloud](notes/module-01-intro-to-cloud.md)
@@ -53,37 +86,51 @@ Built and deployed a static website using Amazon S3 for storage and CloudFront f
 
 ## Repository Structure
 
-- notes/ → AWS service breakdowns and concepts
-- labs/ → Hands-on projects with architecture and screenshots
-- training/ → Course progress and summaries
-- certifications/ → AWS certification proof
+- `notes/` → AWS service breakdowns, module summaries, and study notes
+- `labs/` → Hands-on projects with architecture and screenshots
+- `training/` → Course progress and training summaries
+- `certifications/` → AWS certification proof
 
 ---
 
 ## Training & Coursework
 
-- AWS Cloud Practitioner Essentials (AWS Skill Builder) — Completed  
-- AWS Certified Cloud Practitioner (CLF-C02) — Completed  
+### Completed
+- AWS Cloud Practitioner Essentials (AWS Skill Builder)
+- AWS Certified Cloud Practitioner Exam Prep Plan (AWS Skill Builder)
+- AWS Certified Cloud Practitioner (CLF-C02)
 
-This includes:
-- 13 modules of structured notes
-- Core AWS services (EC2, S3, IAM, VPC)
-- Security, pricing, and architecture fundamentals
-- AWS Well-Architected Framework concepts
+### Current
+- AWS Certified Solutions Architect – Associate (SAA-C03) preparation
+- Hands-on AWS architecture projects
+- Architecture-focused notes and service comparisons
+- Portfolio and GitHub improvement work
 
 ---
 
 ## How I Use This Repo
 
-- High-yield summaries by module  
-- 5 key takeaways per module  
-- “Fuzzy areas” for review  
-- (Next) Flashcards + Mistakes Bank  
+- High-yield summaries by module
+- Hands-on AWS labs and project documentation
+- Architecture concept review
+- Service comparison notes
+- Cloud portfolio development
+- Public documentation of my AWS learning journey
 
 ---
 
 ## Next Steps
 
-- Build real-world AWS architecture projects  
-- Implement scalable and highly available systems  
-- Achieve AWS Solutions Architect Associate certification  
+- Continue building SAA-C03 study notes
+- Add stronger architecture diagrams and service comparison notes
+- Build more advanced AWS projects
+- Improve repository structure over time
+- Achieve AWS Certified Solutions Architect – Associate (SAA-C03)
+
+---
+
+## Why This Repo Exists
+
+I’m using this repository to make my AWS learning visible, structured, and practical.
+
+Instead of treating certification prep like a private study process, I’m documenting my labs, notes, projects, and architectural learning in public as I build toward AWS Solutions Architect Associate and cloud-focused roles.
