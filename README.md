@@ -26,6 +26,7 @@ My goal is not just to pass the certification exam, but to develop practical AWS
 ## Current Focus
 
 - **AWS Certified Solutions Architect – Associate (SAA-C03)**
+- **SAA-C03 study roadmap in progress** using Stephane Maarek, Tutorials Dojo, and AWS Skill Builder
 - Core AWS architecture patterns and service tradeoffs
 - Hands-on AWS labs and portfolio projects
 - Building stronger documentation, diagrams, and architecture thinking
