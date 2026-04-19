@@ -29,3 +29,22 @@ Choosing EC2 when a serverless managed option is the better fit.
 
 ### Common exam trap
 Choosing an IAM user where an AWS service should assume a role instead.
+
+## EC2 Hibernate vs Stop vs Terminate
+
+### Hibernate
+- Saves the contents of RAM to the root EBS volume
+- Useful when you want to resume an instance more quickly with application state preserved
+- Best when preserving in-memory state matters
+
+### Stop
+- Instance shuts down, but attached EBS volumes can remain
+- Does not preserve RAM contents
+- Useful when you want to pause compute usage without deleting the instance
+
+### Terminate
+- Instance is deleted
+- Used when the instance is no longer needed
+
+### Common exam trap
+Confusing hibernate with stop. Hibernate preserves RAM state; stop does not.
