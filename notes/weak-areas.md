@@ -17,6 +17,20 @@ This file tracks recurring weak topics from quizzes, section reviews, and practi
   - recognizing scenario clues tied to vendor licensing and instance choice
   - matching EC2 purchasing models to workload patterns
 
+### Section 6 — EC2: Solutions Architect Associate Level
+- EC2 Hibernate
+  - when hibernation is supported
+  - how hibernation differs from stop and terminate
+  - when hibernation is useful in real scenarios
+- Elastic Network Interfaces (ENI)
+  - ENIs are tied to a subnet and AZ
+  - ENIs cannot be attached across Availability Zones
+  - understand when a secondary network interface is useful
+- EC2 Placement Groups
+  - Cluster Placement Group for low-latency / high-throughput workloads
+  - recognize HPC / big data / tightly-coupled workload clues
+  - distinguish placement group use cases from general EC2 scaling scenarios
+
 ## Update Rules
 - Add new weak areas after each section quiz
 - Keep items short and specific
