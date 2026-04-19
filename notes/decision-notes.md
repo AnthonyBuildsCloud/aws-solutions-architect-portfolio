@@ -48,3 +48,31 @@ Choosing an IAM user where an AWS service should assume a role instead.
 
 ### Common exam trap
 Confusing hibernate with stop. Hibernate preserves RAM state; stop does not.
+
+## ENI and Availability Zone Scope
+
+### Elastic Network Interface (ENI)
+- A virtual network interface for an EC2 instance
+- Belongs to a subnet
+- Because it belongs to a subnet, it is tied to a specific Availability Zone
+
+### Key rule
+- An ENI cannot be attached to an instance in a different Availability Zone
+
+### Common exam trap
+Thinking an ENI can move freely across AZs just because it can be detached and reattached.
+
+## Placement Groups — When to Think About Them
+
+### Cluster Placement Group
+- Best for low-latency, high-throughput communication between EC2 instances
+- Good for HPC, analytics clusters, and tightly-coupled workloads
+
+### Common exam clues
+- high-performance computing
+- big data analytics on EC2 fleet
+- low latency between nodes
+- high network throughput between instances
+
+### Common exam trap
+Missing the workload communication requirement and choosing a generic scaling answer instead.
