@@ -40,6 +40,39 @@ This file tracks missed questions, weak reasoning patterns, and review takeaways
 
 ---
 
+## Entry 3
+
+**Date:** 2026-04-18  
+**Source:** Stephane Maarek — Section 6 Quiz: EC2 Solutions Architect Associate Level  
+**Topic:** EC2 Hibernate  
+**Why I missed it:** I was not fully clear on the exact behavior and limits of EC2 hibernation, especially how it differs from stopping or terminating an instance.  
+**Clue I missed:** The question was testing detailed behavior, not general EC2 lifecycle knowledge.  
+**Correct reasoning:** EC2 hibernation saves the contents of RAM to the root EBS volume so the instance can resume faster later. It is different from stopping because the in-memory state is preserved.  
+**What I will look for next time:** Watch for keywords about preserving in-memory application state, faster resume time, and differences between hibernate, stop, and terminate.
+
+---
+
+## Entry 4
+
+**Date:** 2026-04-18  
+**Source:** Stephane Maarek — Section 6 Quiz: EC2 Solutions Architect Associate Level  
+**Topic:** Elastic Network Interfaces (ENI)  
+**Why I missed it:** I understood that ENIs are attachable network interfaces, but I was not fully locked in on their Availability Zone limitation.  
+**Clue I missed:** The scenario depended on whether an ENI could be attached across AZ boundaries.  
+**Correct reasoning:** An ENI is associated with a subnet, and therefore with a specific Availability Zone. It cannot be attached to an EC2 instance in another AZ.  
+**What I will look for next time:** Whenever ENIs appear in a question, check subnet and Availability Zone scope carefully.
+
+---
+
+## Entry 5
+
+**Date:** 2026-04-18  
+**Source:** Stephane Maarek — Section 6 Quiz: EC2 Solutions Architect Associate Level  
+**Topic:** EC2 Placement Groups  
+**Why I missed it:** I was not confident enough in mapping workload type to the correct placement group concept.  
+**Clue I missed:** The workload involved big data analysis across a fleet of EC2 instances, which suggests high bandwidth and low latency needs between instances.  
+**Correct reasoning:** A Cluster Placement Group is used when EC2 instances need very fast communication and low latency, such as HPC, analytics clusters, or tightly-coupled compute workloads.  
+**What I will look for next time:** Watch for workload clues like high-performance computing, tightly-coupled nodes, low latency, and high network throughput between EC2 instances.
 ## Current Error Patterns I Want to Watch
 
 - mixing up named AWS security tools with general best practices
