@@ -30,6 +30,16 @@ This file tracks recurring weak topics from quizzes, section reviews, and practi
   - Cluster Placement Group for low-latency / high-throughput workloads
   - recognize HPC / big data / tightly-coupled workload clues
   - distinguish placement group use cases from general EC2 scaling scenarios
+ 
+  ### Section 7 — EC2 Instance Storage
+- High-performance EBS volume selection
+  - recognize when a workload needs high IOPS
+  - know when Provisioned IOPS SSD volumes are the better fit
+  - distinguish performance-focused storage questions from general-purpose storage questions
+- EBS volume behavior on EC2 instances
+  - root volume vs additional attached EBS volumes
+  - what happens to volumes on instance termination
+  - default delete-on-termination behavior for root volumes vs non-root volumes
 
 ## Update Rules
 - Add new weak areas after each section quiz
