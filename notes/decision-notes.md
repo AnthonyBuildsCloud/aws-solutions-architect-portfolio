@@ -76,3 +76,31 @@ Thinking an ENI can move freely across AZs just because it can be detached and r
 
 ### Common exam trap
 Missing the workload communication requirement and choosing a generic scaling answer instead.
+
+## High-Performance EBS Volume Selection
+
+### Provisioned IOPS SSD
+- Best for IOPS-intensive workloads
+- Good fit for high-performance databases
+- Designed for low latency and high, consistent performance
+
+### General Purpose SSD
+- Good default SSD choice for many workloads
+- Balanced performance and cost
+- Not the best fit when the question emphasizes very high IOPS demands
+
+### Common exam trap
+Choosing a general-purpose volume when the workload clearly requires very high IOPS and database-grade performance.
+
+## Root EBS Volume vs Additional EBS Volumes
+
+### Root Volume
+- Main boot volume for the EC2 instance
+- Often configured to delete on termination by default
+
+### Additional EBS Volumes
+- Extra attached storage volumes
+- Usually persist after termination unless explicitly set to delete
+
+### Common exam trap
+Forgetting that root and non-root EBS volumes can behave differently when the instance is terminated.
