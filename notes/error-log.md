@@ -73,6 +73,31 @@ This file tracks missed questions, weak reasoning patterns, and review takeaways
 **Clue I missed:** The workload involved big data analysis across a fleet of EC2 instances, which suggests high bandwidth and low latency needs between instances.  
 **Correct reasoning:** A Cluster Placement Group is used when EC2 instances need very fast communication and low latency, such as HPC, analytics clusters, or tightly-coupled compute workloads.  
 **What I will look for next time:** Watch for workload clues like high-performance computing, tightly-coupled nodes, low latency, and high network throughput between EC2 instances.
+
+---
+
+## Entry 6
+
+**Date:** 2026-04-18  
+**Source:** Stephane Maarek — Section 7 Quiz: EC2 Instance Storage  
+**Topic:** High-performance EBS volume selection  
+**Why I missed it:** I was not fully confident in matching an IOPS-heavy database workload to the correct EBS volume type.  
+**Clue I missed:** The scenario specifically mentioned very high IOPS requirements, which should immediately narrow the answer toward a performance-optimized EBS option.  
+**Correct reasoning:** When a workload, especially a database, requires very high IOPS, Provisioned IOPS SSD volumes are usually the best fit because they are designed for high-performance, latency-sensitive workloads.  
+**What I will look for next time:** Watch for keywords like high IOPS, high-performance database, low latency, and sustained storage performance.
+
+---
+
+## Entry 7
+
+**Date:** 2026-04-18  
+**Source:** Stephane Maarek — Section 7 Quiz: EC2 Instance Storage  
+**Topic:** Root volume vs additional EBS volume behavior  
+**Why I missed it:** I was not fully locked in on how root and non-root EBS volumes behave differently, especially around instance termination.  
+**Clue I missed:** The scenario depended on whether the volume was the root volume or an additional attached volume.  
+**Correct reasoning:** The root EBS volume is often configured to be deleted on termination by default, while additional EBS volumes are typically not deleted unless explicitly configured that way.  
+**What I will look for next time:** Check whether the question is talking about the root volume or a secondary volume, and pay attention to delete-on-termination behavior.
+
 ## Current Error Patterns I Want to Watch
 
 - mixing up named AWS security tools with general best practices
