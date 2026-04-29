@@ -97,6 +97,10 @@ This project demonstrates foundational AWS architecture skills around storage, c
 
 ## Notes Index
 
+### Foundation Notes (AWS Skill Builder)
+
+These notes were built from my AWS Skill Builder / Cloud Practitioner foundation work and serve as my base AWS reference library.
+
 - [Module 1 – Introduction to the Cloud](notes/module-01-intro-to-cloud.md)
 - [Module 2 – Compute in the Cloud](notes/module-02-compute-in-the-cloud.md)
 - [Module 3 – Exploring Compute Services](notes/module-03-exploring-compute-services.md)
@@ -111,6 +115,20 @@ This project demonstrates foundational AWS architecture skills around storage, c
 - [Module 12 – Migrating to the AWS Cloud](notes/module-12-migrating-to-the-aws-cloud.md)
 - [Module 13 – Well-Architected Solutions](notes/module-13-well-architected-solutions.md)
 
+### SAA-C03 Section Notes (Stephane Maarek)
+
+These notes track my current AWS Solutions Architect Associate study progress, section quiz takeaways, and architecture-focused review from Stephane Maarek’s SAA-C03 course.
+
+- [Section 4 – IAM & AWS CLI](notes/saa-section-04-iam-aws-cli.md)
+- [Section 5 – EC2 Fundamentals](notes/saa-section-05-ec2-fundamentals.md)
+- [Section 6 – EC2: Solutions Architect Associate Level](notes/saa-section-06-ec2-saa-level.md)
+- [Section 7 – EC2 Instance Storage](notes/saa-section-07-ec2-instance-storage.md)
+
+### Study Tracking Files
+
+- [Decision Notes](notes/decision-notes.md)
+- [Error Log](notes/error-log.md)
+- [Weak Areas](notes/weak-areas.md)
 ---
 
 ## Repository Structure
