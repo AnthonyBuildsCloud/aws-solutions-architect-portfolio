@@ -133,7 +133,7 @@ These notes track my current AWS Solutions Architect Associate study progress, s
 
 ## Repository Structure
 
-- `notes/` → AWS service breakdowns, module summaries, study notes, weak-area tracking, error logs, and decision notes
+- `notes/` → foundation AWS notes, SAA-C03 section notes, weak-area tracking, error logs, and decision notes
 - `labs/` → hands-on projects with architecture and screenshots
 - `training/` → course progress and training summaries
 - `certifications/` → AWS certification proof
